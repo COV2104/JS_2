@@ -1,0 +1,11 @@
+p {
+    font-size: 20px;
+}
+
+.error {
+    background-color: rgb(246, 193, 183);
+}
+
+.message {
+    visibility: hidden;
+}
