@@ -1,0 +1,41 @@
+.player{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btnPan {
+    height: 80px;
+    width: 800px;
+    background-color: peachpuff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* .btnPlay {
+    width: 80px;
+    height: 80px;
+    background-image: url(play.png);
+    cursor: pointer;
+}
+
+.btnPause {
+    width: 80px;
+    height: 80px;
+    background-image: url(pause.png);
+    cursor: pointer;
+} */
+
+.btnPlayPause {
+    width: 60px;
+    height: 60px;
+    background-size: contain;
+    background-image: url(play-pause-48.png);
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+.videoBox {
+    width: 800px;
+}
